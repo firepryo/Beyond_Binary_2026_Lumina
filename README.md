@@ -81,7 +81,6 @@ Upon sign-up, users deposit $5 to reduce last-minute cancellations or ghosting.
 
 ### Revenue Streams
 
-
 * For Spark Tier, it is free of charge with bare minimum features and has a limit of 10 activity searches per week. 
 
 * For Radiance Tier, it is priced at $5 per month. You now have 30 searches per week, a verified profile badge, real time translation, and the ability to see who waved at you. 
