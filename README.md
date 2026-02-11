@@ -1,113 +1,115 @@
-###Project Concept — Quick-Meet Companion App 
+### Project Concept — Quick-Meet Companion App
 
-##Problem 
+---
 
-Many people want to do small enjoyable activities (coffee, short walk, quick meal) 
+### Problem
 
-They hesitate because they don’t want to go alone 
+Many people want to do small, enjoyable activities (coffee, short walk, quick meal), but hesitate because they don’t want to go alone. Existing social platforms focus on large events or friendships rather than spontaneous micro-plans. Loneliness isn’t always chronic — sometimes it’s momentary hesitation.
 
-Existing social platforms focus on large events or friendships, not spontaneous micro-plans    
+---
 
-Loneliness isn’t always chronic — sometimes it’s momentary hesitation 
+### Target Users
 
- 
+Individuals with social anxiety who prefer low-pressure meetups.
 
-Target Users 
+---
 
-Individuals with social anxiety who prefer low-pressure meetups 
+### Solution
 
-Solution 
+An app that enables instant activity companionship.
 
-An app that enables instant activity companionship: 
+---
 
-Core Features 
+### Core Features
 
-Smart matching with people nearby who want the same activity now, (other attributes: gender, location, personality trait (MBTI), age) 
+* Smart matching with nearby people who want the same activity now
+  *(filters: gender, location, personality trait (MBTI), age)*
+* Ability to host quick meetups (e.g., “Coffee in 15 min?”)
 
-Ability to host quick meetups (e.g., “Coffee in 15 min?”) 
+**Safety Layer**
 
-Safety layer: 
+* Verified profiles
+* Location check-ins
+* Safety push notifications
 
-verified profiles 
+---
 
-location check-ins 
+### Unique Value Proposition
 
-safety push notification 
+* Focus on micro-socializing instead of friendships or dating
+* Matches based on activity + time
+* Built-in safety monitoring increases trust when meeting strangers
 
- 
+---
 
-Unique Value Proposition 
+### How It Works
 
-Focus on micro-socializing instead of friendships or dating 
+1. User selects activity + time window
+2. AI suggests nearby matches with the same intent
+3. Users accept match → temporary chat opens
+4. App monitors check-in/out for safety
 
-Matches based on activity + time 
+**Commitment Mechanism**
+Upon sign-up, users deposit $5 to reduce last-minute cancellations or ghosting.
 
-Built-in safety monitoring increases trust for meeting strangers 
+---
 
- 
+### Impact
 
-How It Works 
+* Reduces everyday loneliness
+* Encourages people to go out more
+* Builds real-world social confidence
+* Helps newcomers integrate into communities
 
-User selects activity + time window 
+---
 
-AI suggests nearby matches with same intent 
+### Why Now
 
-Users accept match → temporary chat opens 
+* Rising remote lifestyles
+* Increasing reports of social isolation
+* People want real-life interaction but safer, easier ways to start
 
-App monitors check-in/out for safety 
+---
 
-When sign up, the user has to deposit 5 dollars, to make sure that people do not ghost ditch the plans 
+### Future Expansion
 
- 
+* Group micro-events
+* Partnerships with cafés/venues
+* Rewards for frequent participation
 
-Impact 
+---
 
-Reduces everyday loneliness 
+### Revenue Streams
 
-Encourages people to go out more 
+**Freemium AI Matching**
 
-Builds real-world social confidence 
+* Free tier: 10 smart matches per week
+* Premium tier: unlimited matches + priority matching + advanced filters
 
-Helps newcomers integrate into communities 
+---
 
- 
-Why Now 
+### Hackathon Context
 
-Rising remote lifestyles 
+This app was created during the **NTU Women In Tech Beyond Binary 2026 Hackathon**. Its purpose is to foster social cohesion.
 
-Increasing reports of social isolation 
+---
 
-People want real-life interaction but safer, easier ways to start 
+### Run Locally
 
- 
+**Prerequisites:** Node.js
 
-Future Expansion 
+1. Install dependencies
 
-Group micro-events 
+   ```
+   npm install
+   ```
+2. Set your Gemini API key in `.env.local`
 
-Partnerships with cafés/venues 
+   ```
+   GEMINI_API_KEY=your_key_here
+   ```
+3. Run the app
 
-Rewards for frequent participation 
-
-Revenue Streams  
-
-Freemium AI Matching 
-
-Free tier: 10 smart matches per week 
-
-Premium tier: unlimited matches + priority matching + filters 
-
-
-This an app done during NTU Women In Tech Beyond Binary 2026 Hackathon. The purpose of the app is to foster social cohesion.
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-
+   ```
+   npm run dev
+   ```
