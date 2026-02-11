@@ -81,7 +81,6 @@ Upon sign-up, users deposit $5 to reduce last-minute cancellations or ghosting.
 
 ### Revenue Streams
 
-**Freemium AI Matching**
 
 * For Spark Tier, it is free of charge with bare minimum features and has a limit of 10 activity searches per week. 
 
