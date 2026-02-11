@@ -1,0 +1,8 @@
+{
+  "name": "Lumina - Community Resonance",
+  "description": "A data-driven, audio-first emotional well-being platform that visualizes community sentiment and fosters meaningful connections through empathetic AI analysis.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
