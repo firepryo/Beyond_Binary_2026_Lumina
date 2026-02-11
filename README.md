@@ -1,6 +1,6 @@
-Project Concept — Quick-Meet Companion App 
+###Project Concept — Quick-Meet Companion App 
 
-Problem 
+##Problem 
 
 Many people want to do small enjoyable activities (coffee, short walk, quick meal) 
 
